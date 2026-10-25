@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="wall2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7c79a"/>
+      <stop offset="100%" stop-color="#f3dcb8"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b9824f"/>
+      <stop offset="100%" stop-color="#8a5a32"/>
+    </linearGradient>
+    <radialGradient id="lamp2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff2cf" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fff2cf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="620" fill="url(#wall2)"/>
+  <rect y="620" width="1600" height="380" fill="url(#wood)"/>
+  <rect y="620" width="1600" height="14" fill="#5c3a1f"/>
+
+  <!-- window -->
+  <g transform="translate(1150,90)">
+    <rect x="-12" y="-12" width="300" height="360" rx="14" fill="#7a4b2e"/>
+    <rect width="276" height="336" fill="#ffd9a0"/>
+    <rect x="132" width="12" height="336" fill="#7a4b2e"/>
+    <rect y="162" width="276" height="12" fill="#7a4b2e"/>
+  </g>
+
+  <!-- bookshelf -->
+  <g transform="translate(80,120)">
+    <rect width="300" height="500" fill="#6e4426"/>
+    <rect x="12" y="12" width="276" height="110" fill="#51311c"/>
+    <rect x="12" y="134" width="276" height="110" fill="#51311c"/>
+    <rect x="12" y="256" width="276" height="110" fill="#51311c"/>
+    <rect x="12" y="378" width="276" height="110" fill="#51311c"/>
+    <g fill="#d2894f"><rect x="24" y="22" width="14" height="90"/><rect x="44" y="22" width="14" height="90"/></g>
+    <g fill="#e8b56a"><rect x="64" y="22" width="14" height="90"/></g>
+    <g fill="#ffd9a0"><rect x="24" y="144" width="14" height="90"/><rect x="48" y="144" width="14" height="90"/></g>
+    <g fill="#d2894f"><rect x="24" y="266" width="14" height="90"/></g>
+    <g fill="#e8b56a"><rect x="44" y="266" width="14" height="90"/><rect x="64" y="266" width="14" height="90"/></g>
+  </g>
+
+  <!-- desk -->
+  <g transform="translate(420,660)">
+    <rect width="900" height="40" rx="8" fill="#6e4426"/>
+    <rect x="30" y="40" width="30" height="220" fill="#5c3a1f"/>
+    <rect x="820" y="40" width="30" height="220" fill="#5c3a1f"/>
+  </g>
+
+  <!-- lamp -->
+  <g transform="translate(520,520)">
+    <rect x="-6" y="60" width="12" height="100" fill="#4a4a4a"/>
+    <path d="M-50 60 L50 60 L20 0 L-20 0 Z" fill="#d6a86a"/>
+    <circle cx="0" cy="40" r="140" fill="url(#lamp2)"/>
+  </g>
+
+  <!-- open book + mug -->
+  <g transform="translate(760,640)">
+    <path d="M0 40 Q60 10 120 40 L120 70 Q60 40 0 70 Z" fill="#fff6ea"/>
+    <path d="M120 40 Q180 10 240 40 L240 70 Q180 40 120 70 Z" fill="#fff6ea"/>
+  </g>
+  <g transform="translate(1050,610)">
+    <rect width="54" height="60" rx="8" fill="#c0694f"/>
+    <path d="M54 14 q26 4 26 24 q0 20 -26 24" fill="none" stroke="#c0694f" stroke-width="8"/>
+  </g>
+</svg>

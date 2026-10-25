@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd9a0"/>
+      <stop offset="45%" stop-color="#ffc083"/>
+      <stop offset="100%" stop-color="#ffe6bf"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e9c468"/>
+      <stop offset="100%" stop-color="#cf9f43"/>
+    </linearGradient>
+    <radialGradient id="sunglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff2cf" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#ffcf87" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffcf87" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="640" fill="url(#sky)"/>
+  <circle cx="1220" cy="360" r="320" fill="url(#sunglow)"/>
+  <circle cx="1220" cy="360" r="90" fill="#fff2cf"/>
+
+  <rect y="620" width="1600" height="380" fill="url(#field)"/>
+  <path d="M0 640 Q400 580 800 630 T1600 610 V1000 H0 Z" fill="#e3b85a"/>
+
+  <!-- barn -->
+  <g transform="translate(180,420)">
+    <polygon points="0,180 170,70 340,180" fill="#a8432f"/>
+    <rect y="180" width="340" height="220" fill="#c0523a"/>
+    <rect x="140" y="260" width="60" height="140" fill="#5c2c1d"/>
+    <rect x="30" y="220" width="60" height="60" fill="#ffe6bf" opacity="0.85"/>
+    <rect x="250" y="220" width="60" height="60" fill="#ffe6bf" opacity="0.85"/>
+  </g>
+
+  <!-- silo -->
+  <g transform="translate(560,470)">
+    <rect width="90" height="220" rx="40" fill="#d8cfc2"/>
+    <ellipse cx="45" cy="0" rx="45" ry="26" fill="#b9ad9b"/>
+  </g>
+
+  <!-- wheat stalks -->
+  <g stroke="#8a6425" stroke-width="4" opacity="0.8">
+    <path d="M820 760 q-6 -60 6 -100"/>
+    <path d="M860 770 q-6 -70 10 -110"/>
+    <path d="M900 760 q-6 -55 8 -95"/>
+    <path d="M1300 780 q-6 -60 6 -100"/>
+    <path d="M1340 770 q-6 -70 10 -110"/>
+  </g>
+
+  <!-- fence -->
+  <g stroke="#8a5631" stroke-width="10" stroke-linecap="round">
+    <line x1="0" y1="660" x2="1600" y2="660"/>
+    <line x1="0" y1="700" x2="1600" y2="700"/>
+  </g>
+  <g fill="#8a5631">
+    <rect x="80" y="630" width="14" height="100"/>
+    <rect x="300" y="630" width="14" height="100"/>
+    <rect x="1420" y="630" width="14" height="100"/>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7dcc4"/>
+      <stop offset="55%" stop-color="#fbe9d6"/>
+      <stop offset="100%" stop-color="#fff3e6"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c88a55"/>
+      <stop offset="100%" stop-color="#a8673a"/>
+    </linearGradient>
+    <radialGradient id="fireglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffdf9c" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#ffb15e" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffb15e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3cf" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#fff3cf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="720" fill="url(#wall)"/>
+  <rect y="720" width="1600" height="280" fill="url(#floor)"/>
+  <rect y="720" width="1600" height="10" fill="#8a5631"/>
+
+  <!-- window with warm evening light -->
+  <g transform="translate(1180,120)">
+    <rect x="-10" y="-10" width="340" height="420" rx="14" fill="#8a5631"/>
+    <rect width="320" height="400" rx="6" fill="#ffd9a0"/>
+    <rect width="320" height="400" rx="6" fill="#ffb15e" opacity="0.25"/>
+    <rect x="152" width="16" height="400" fill="#8a5631"/>
+    <rect y="192" width="320" height="16" fill="#8a5631"/>
+  </g>
+  <circle cx="1340" cy="330" r="260" fill="url(#lampglow)"/>
+
+  <!-- fireplace -->
+  <g transform="translate(120,560)">
+    <rect x="-30" y="-40" width="340" height="220" rx="18" fill="#7a4b2e"/>
+    <path d="M10 180 L10 20 Q110 -60 230 20 L230 180 Z" fill="#2b211c"/>
+    <path d="M60 170 Q110 60 160 170 Q130 110 110 170 Q95 120 60 170Z" fill="#ffb84d"/>
+    <path d="M90 170 Q120 100 150 170 Z" fill="#ffe08a"/>
+  </g>
+  <circle cx="230" cy="660" r="260" fill="url(#fireglow)"/>
+
+  <!-- armchair -->
+  <g transform="translate(650,640)">
+    <rect x="0" y="80" width="260" height="140" rx="30" fill="#c0694f"/>
+    <rect x="-20" y="30" width="60" height="170" rx="24" fill="#a85640"/>
+    <rect x="220" y="30" width="60" height="170" rx="24" fill="#a85640"/>
+    <rect x="10" y="0" width="240" height="100" rx="26" fill="#d67a5e"/>
+    <circle cx="20" cy="230" r="16" fill="#6e3b26"/>
+    <circle cx="240" cy="230" r="16" fill="#6e3b26"/>
+  </g>
+
+  <!-- bookshelf hint -->
+  <g transform="translate(60,160)" opacity="0.85">
+    <rect width="220" height="280" fill="#7a4b2e"/>
+    <rect x="10" y="10" width="200" height="60" fill="#5c3a24"/>
+    <rect x="10" y="80" width="200" height="60" fill="#5c3a24"/>
+    <rect x="10" y="150" width="200" height="60" fill="#5c3a24"/>
+    <rect x="20" y="16" width="10" height="48" fill="#e8b56a"/>
+    <rect x="36" y="16" width="10" height="48" fill="#d67a5e"/>
+    <rect x="52" y="16" width="10" height="48" fill="#ffd9a0"/>
+    <rect x="20" y="86" width="10" height="48" fill="#ffd9a0"/>
+    <rect x="36" y="86" width="10" height="48" fill="#e8b56a"/>
+    <rect x="20" y="156" width="10" height="48" fill="#d67a5e"/>
+  </g>
+
+  <!-- soft bokeh -->
+  <circle cx="500" cy="200" r="10" fill="#ffe6bf" opacity="0.7"/>
+  <circle cx="900" cy="300" r="6" fill="#ffe6bf" opacity="0.6"/>
+  <circle cx="760" cy="150" r="14" fill="#ffe6bf" opacity="0.5"/>
+</svg>

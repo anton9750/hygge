@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6b58a"/>
+      <stop offset="50%" stop-color="#ffd3a0"/>
+      <stop offset="100%" stop-color="#ffe9c9"/>
+    </linearGradient>
+    <linearGradient id="floor2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c79a6a"/>
+      <stop offset="100%" stop-color="#a97a4e"/>
+    </linearGradient>
+    <radialGradient id="sunglow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff2cf" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#ffb978" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffb978" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="620" fill="url(#sky2)"/>
+  <circle cx="800" cy="420" r="340" fill="url(#sunglow2)"/>
+  <circle cx="800" cy="420" r="90" fill="#fff2cf"/>
+
+  <!-- distant hills -->
+  <path d="M0 560 Q300 480 700 540 T1600 520 V640 H0 Z" fill="#e3a46c" opacity="0.8"/>
+
+  <rect y="620" width="1600" height="380" fill="url(#floor2)"/>
+  <g stroke="#8a6440" stroke-width="3" opacity="0.5">
+    <line x1="0" y1="700" x2="1600" y2="700"/>
+    <line x1="0" y1="780" x2="1600" y2="780"/>
+    <line x1="0" y1="860" x2="1600" y2="860"/>
+    <line x1="0" y1="940" x2="1600" y2="940"/>
+  </g>
+
+  <!-- railing -->
+  <g stroke="#6e4426" stroke-width="12" stroke-linecap="round">
+    <line x1="0" y1="600" x2="1600" y2="600"/>
+  </g>
+  <g fill="#6e4426">
+    <rect x="40" y="520" width="14" height="90"/>
+    <rect x="200" y="520" width="14" height="90"/>
+    <rect x="1340" y="520" width="14" height="90"/>
+    <rect x="1500" y="520" width="14" height="90"/>
+  </g>
+
+  <!-- string lights -->
+  <path d="M20 440 Q400 520 800 440 T1580 440" fill="none" stroke="#8a6440" stroke-width="3" opacity="0.6"/>
+  <g fill="#ffe08a">
+    <circle cx="140" cy="470" r="10"/>
+    <circle cx="380" cy="505" r="10"/>
+    <circle cx="620" cy="475" r="10"/>
+    <circle cx="900" cy="475" r="10"/>
+    <circle cx="1140" cy="500" r="10"/>
+    <circle cx="1400" cy="465" r="10"/>
+  </g>
+
+  <!-- potted plant -->
+  <g transform="translate(1280,660)">
+    <path d="M0 160 L30 160 L22 70 L8 70 Z" fill="#a85640"/>
+    <path d="M14 70 q-50 -20 -60 -80 q60 0 70 50 Z" fill="#6e8f4e"/>
+    <path d="M14 70 q50 -30 50 -100 q-60 10 -62 70 Z" fill="#84a85c"/>
+    <path d="M14 70 q0 -70 -20 -110 q-50 30 -20 90 Z" fill="#577b3f"/>
+  </g>
+
+  <!-- two chairs + table -->
+  <g transform="translate(560,700)">
+    <rect width="150" height="16" rx="6" fill="#6e4426"/>
+    <rect x="0" y="16" width="14" height="80" fill="#5c3a1f"/>
+    <rect x="136" y="16" width="14" height="80" fill="#5c3a1f"/>
+  </g>
+</svg>

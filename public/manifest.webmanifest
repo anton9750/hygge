@@ -1,0 +1,25 @@
+{
+  "name": "Vores Hyggekrog — Fotobog",
+  "short_name": "Hyggekrog",
+  "description": "En hyggelig fotobog, hvor I kan samle og se jeres kære minder i ro og mag.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff7f9",
+  "theme_color": "#f7a9bd",
+  "lang": "da",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

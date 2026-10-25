@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6a67d"/>
+      <stop offset="45%" stop-color="#ffcf9b"/>
+      <stop offset="100%" stop-color="#ffe9c9"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a9bb0"/>
+      <stop offset="100%" stop-color="#7fc1c9"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3d9a6"/>
+      <stop offset="100%" stop-color="#e3bd7c"/>
+    </linearGradient>
+    <radialGradient id="sunglow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff2cf" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#ffb978" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffb978" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="560" fill="url(#sky3)"/>
+  <circle cx="800" cy="500" r="360" fill="url(#sunglow3)"/>
+  <circle cx="800" cy="500" r="100" fill="#fff2cf"/>
+
+  <rect y="520" width="1600" height="220" fill="url(#sea)"/>
+  <g fill="#ffe9c9" opacity="0.55">
+    <path d="M0 560 Q200 540 400 560 T800 560 T1200 560 T1600 560 V580 Q1400 600 1200 580 T800 580 T400 580 T0 580 Z"/>
+    <path d="M0 620 Q200 600 400 620 T800 620 T1200 620 T1600 620 V640 Q1400 660 1200 640 T800 640 T400 640 T0 640 Z"/>
+  </g>
+
+  <rect y="700" width="1600" height="300" fill="url(#sand)"/>
+  <path d="M0 700 Q400 660 800 700 T1600 690 V740 Q1200 700 800 740 T0 730 Z" fill="#f6e2b3"/>
+
+  <!-- beach umbrella + chair -->
+  <g transform="translate(1180,560)">
+    <path d="M0 0 L0 220" stroke="#6e4426" stroke-width="10"/>
+    <path d="M-150 0 Q0 -110 150 0 Q0 30 -150 0Z" fill="#c0694f"/>
+    <path d="M-150 0 Q-75 -60 0 0 Z" fill="#a85640"/>
+    <path d="M150 0 Q75 -60 0 0 Z" fill="#a85640"/>
+  </g>
+  <g transform="translate(1050,760)">
+    <path d="M0 80 L30 0 L110 0 L120 80 Z" fill="#d6a86a"/>
+    <rect y="80" width="130" height="14" fill="#8a5a32"/>
+  </g>
+
+  <!-- shells -->
+  <g fill="#e3bd7c" opacity="0.9">
+    <circle cx="300" cy="860" r="10"/>
+    <circle cx="420" cy="900" r="7"/>
+    <circle cx="520" cy="840" r="9"/>
+  </g>
+</svg>
